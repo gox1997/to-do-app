@@ -56,10 +56,10 @@ function App() {
             <div
                 className="bg-white shadow-lg rounded-3xl p-16"
                 style={{
-                    backgroundImage: `url('/fractalize.png')`,
+                    backgroundImage: `url('/div-bg.png')`,
                 }}
             >
-                <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
+                <h1 className="text-3xl font-bold text-center text-white mb-6">
                     To-Do App
                 </h1>
                 <div className="flex mb-4">
@@ -80,7 +80,7 @@ function App() {
                 </div>
                 <ul className="space-y-2 ">
                     {tasks.length === 0 ? (
-                        <p className="text-gray-800 font-bold">
+                        <p className="text-white font-bold">
                             No tasks yet. Add one above!
                         </p>
                     ) : (
